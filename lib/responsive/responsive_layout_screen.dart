@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:instagram_flutter/utils/dimensions.dart';
 
 class ResponsiveLayout extends StatelessWidget {
