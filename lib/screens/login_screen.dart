@@ -73,6 +73,24 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Container(),
               flex: 2,
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                TextButton(
+                  onPressed: () {},
+                  child: const Text("Don't hace an account?"),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  style: TextButton.styleFrom(
+                    textStyle: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  child: const Text("Sign up"),
+                ),
+              ],
+            )
           ],
         ),
       ),

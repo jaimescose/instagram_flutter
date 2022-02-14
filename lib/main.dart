@@ -23,16 +23,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Instagram Clone',
-      theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: mobileBackgroundColor,
-      ),
-      /*
+        title: 'Instagram Clone',
+        theme: ThemeData.dark().copyWith(
+          scaffoldBackgroundColor: mobileBackgroundColor,
+        ),
+        /*
       home: const ResponsiveLayout(
         webScreenLayout: WebScreenLayout(),
         mobileScreenLayout: MobileScreenLayout(),
       ),*/
-      home: const LoginScreen()
-    );
+        home: const LoginScreen());
   }
 }
